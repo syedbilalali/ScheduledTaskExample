@@ -24,7 +24,7 @@ namespace ScheduledTaskExample.ScheduleTasks
                     Port = 587,
                     EnableSsl = true,
                     DeliveryMethod = SmtpDeliveryMethod.Network,
-                Credentials = new NetworkCredential("syedbilalali.dev@gmail.com", "syedbilal999")
+                Credentials = new NetworkCredential("syedbilalali.dev@gmail.com", "")
                 })
                
                     client.Send(message);
